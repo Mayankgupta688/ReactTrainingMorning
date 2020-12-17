@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import UsingHooksObject from "./hooks/useStateObject";
+import SinglePage from "./singlePageApplication/singlePage";
 
 ReactDOM.render((
     <div>
-        <UsingHooksObject></UsingHooksObject>
+        <SinglePage></SinglePage>
     </div>
 ), document.getElementById("root"));
